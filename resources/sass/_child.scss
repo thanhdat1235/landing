@@ -1,0 +1,49 @@
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #e67e62;
+  padding: 15px 30px;
+  border-radius: 20px;
+  margin: 0 5px;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  transition: all 0.32;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: black;
+  color: white;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin-left: 200px !important;
+  margin-right: 200px !important;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 150%;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: white;
+  line-height: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-left: 60px;
+}
+
+.p-long {
+  margin-left: 60px;
+}

@@ -1,0 +1,720 @@
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #e67e62;
+  padding: 15px 30px;
+  border-radius: 20px;
+  margin: 0 5px;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  transition: all 0.32;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: black;
+  color: white;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin-left: 200px !important;
+  margin-right: 200px !important;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 150%;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: white;
+  line-height: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-left: 60px;
+}
+
+.p-long {
+  margin-left: 60px;
+}
+
+.logo {
+  width: 200px;
+  float: left;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin: top 20px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  text-align: center;
+  flex-grow: 1;
+  position: static;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 110%;
+  font-weight: 700;
+  transition: border-bottom 0.2s;
+  padding: 3px 0px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid black;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.new {
+  border-radius: 5px;
+  background-color: #4cc493;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 7px;
+  margin: 0 10px;
+  line-height: 1.8;
+  display: inline-block;
+  top: -1px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.header-top-line-content {
+  text-align: center;
+}
+
+.header-menu-bg {
+  font-weight: 500;
+  z-index: 10001;
+  width: 100%;
+  background: var(--color-bg-topmenu);
+  padding: 0 50px;
+}
+
+.header-menu {
+  overflow: visible;
+  font-size: 14px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons a {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  margin-left: 0;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.inline {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.icons-menu {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fix-li {
+  display: flex;
+}
+
+.fix-lx-1 {
+  display: flex;
+}
+
+.menu-items {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.register {
+  margin-right: 10px;
+}
+
+.menu-top-container {
+  flex: 1;
+}
+
+.logo-dropdow {
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.menu-2 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.text {
+  margin-left: 45px;
+}
+
+.subcribe li a {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #f36;
+  color: white;
+}
+
+.col {
+  width: 10px;
+  margin: 10px 20px;
+}
+
+.cat-dot1 .fa-solid {
+  text-decoration: none;
+  color: purple;
+}
+
+.cat-dot2 .fa-solid {
+  text-decoration: none;
+  color: blue;
+}
+
+.cat-dot3 .fa-solid {
+  text-decoration: none;
+  color: #002147;
+}
+
+.cat-dot4 .fa-solid {
+  text-decoration: none;
+  color: orange;
+}
+
+.span-dot {
+  background-color: #e7e7e7;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recent {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+}
+
+.images {
+  margin-left: -80px;
+}
+
+.dot-text {
+  position: relative;
+  top: 20%;
+  left: 20%;
+}
+
+.about-image {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.dot {
+  width: 8%;
+}
+
+.inhype-all {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+}
+
+.inhype {
+  background-color: #f36;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.post-tittle a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.link-author a {
+  text-decoration: none;
+  color: black;
+}
+
+.col-md-5 {
+  max-width: none !important;
+  width: 600px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.inhype-block {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.all-span {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.technology {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.container-tittle .inhype-block h3 {
+  font-size: 50px;
+}
+
+.container-tittle .inhype-block h4 {
+  font-size: 20px;
+}
+
+.span-dot-2 {
+  background-color: #e7e7e7;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.p-technology {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: -200px;
+  margin-right: -347px;
+}
+
+.mini-header {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-6-header-line.jpg);
+  background-size: content;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow-container {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/12/inhype1-photos-21.jpg);
+  background-attachment: fixed;
+  background-position: content;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.container-content-1 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/12/inhype1-photos-22-1-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.container-content-2 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-4-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.container-content-3 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-23-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.container-content-4 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-7-800x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.container-content-5 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-6-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.container-content-6 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/12/inhype1-photos-30-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.container-content-7 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-14-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.container-content-8 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/12/inhype1-photos-28-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.container-content-9 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/12/inhype1-photos-32-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.container-content-10 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/_ajqggafofe-555x360.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.container-content-11 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-7-555x360.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.container-content-12 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/12/inhype1-photos-30-555x360.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.container-content-14 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/5anis0hlnre-555x360.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.images-today {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/12/inhype1-photos-32-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.art-images-1 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-9-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 445px;
+  width: 555px;
+  border-radius: 10px;
+}
+
+.art-images-2 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/_ajqggafofe-555x360.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 445px;
+  width: 555px;
+  border-radius: 10px;
+}
+
+.span-dot {
+  width: 128px;
+}
+
+.selected-image-big {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/12/inhype1-photos-22-1-1140x694.jpg);
+  width: 876px;
+  height: 562.2px;
+}
+
+.selected-small-1 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-4-555x360.jpg);
+  width: 204px;
+  height: 132.31px;
+}
+
+.container-content {
+  display: flex;
+}
+
+.travel-images-1 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/12/inhype1-photos-27-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.travel-images-2 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-4-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.travel-images-3 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/knnzfpsol7o-533x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.travel-images-4 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-15-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.travel-images-5 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/6bkphaun4d8-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.travel-images-6 {
+  background-image: url(https://wp.wp-preview.com/inhype/inhype-1/wp-content/uploads/2019/11/inhype1-photos-3-1140x694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.inline-post-1 {
+  padding: 40px;
+  background-color: var(--color-bg-grey);
+  margin-bottom: var(--margin-themeblock-wrapper);
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row-new {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.inhype-3-title {
+  margin-left: -120px;
+  font-weight: bold;
+}
+
+.slide-today {
+  display: flex;
+}
+
+.span-1-of-4 {
+  width: 20%;
+}
+
+#slide {
+  width: 350.59px;
+  height: 398.44px;
+}
+
+.container-art {
+  margin-left: 160px;
+  margin-right: -118px;
+}
+
+.art-culture {
+  margin-top: 250px;
+}
+
+.hold-art {
+  display: flex;
+}
+
+#art-col {
+  margin-right: -400px;
+}
+
+.heading-art {
+  margin-left: 36px;
+}
+
+.inhype-btn {
+  display: flex;
+  justify-content: center;
+  margin-left: -361px;
+  margin-top: 20px;
+}
+
+.inhype-btn a {
+  background-color: blue;
+}
+
+.all-slected {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.container-content {
+  margin-left: 0px !important;
+}
+
+.selected-image-big {
+  margin-right: 160px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.row-new-1 {
+  display: flex;
+}
+
+.hold-child {
+  margin-left: -94px;
+}
+
+.images-small-title {
+  width: 206px;
+}
+
+.selected-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.selected-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.selected-small-1 {
+  height: 108px;
+  border-radius: 10px;
+}
+
+.selected {
+  border-bottom: 2px solid gray;
+  margin-bottom: 100px;
+  padding-bottom: 60px;
+  margin-top: 50px;
+}
+
+.hold-travel {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.travel .about-image {
+  font-size: 15px;
+  height: 35vh;
+}
+
+.travel .dot {
+  font-size: 15px;
+}
+
+.travel .inhype-block {
+  margin-left: 336px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: "Lato", sans-serif;
+  font-size: 20px;
+  color: #5a5a5a;
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  overflow: hidden auto;
+}
+
+/*# sourceMappingURL=style.css.map */

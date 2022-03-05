@@ -1,0 +1,154 @@
+.logo {
+  width: 200px;
+  float: left;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin: top 20px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  text-align: center;
+  flex-grow: 1;
+  position: static;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 110%;
+  font-weight: 700;
+  transition: border-bottom 0.2s;
+  padding: 3px 0px;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid black;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.new {
+  border-radius: 5px;
+  background-color: #4cc493;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 7px;
+  margin: 0 10px;
+  line-height: 1.8;
+  display: inline-block;
+  top: -1px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.header-top-line-content {
+  text-align: center;
+}
+
+.header-menu-bg {
+  font-weight: 500;
+  z-index: 10001;
+  width: 100%;
+  background: var(--color-bg-topmenu);
+  padding: 0 50px;
+}
+
+.header-menu {
+  overflow: visible;
+  font-size: 14px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons a {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  margin-left: 0;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.inline {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.icons-menu {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fix-li {
+  display: flex;
+}
+
+.fix-lx-1 {
+  display: flex;
+}
+
+.menu-items {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.register {
+  margin-right: 10px;
+}
+
+.menu-top-container {
+  flex: 1;
+}
+
+.logo-dropdow {
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.menu-2 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.text {
+  margin-left: 45px;
+}
+
+.subcribe li a {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #f36;
+  color: white;
+}

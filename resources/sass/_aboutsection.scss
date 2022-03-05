@@ -1,0 +1,133 @@
+.col {
+  width: 10px;
+  margin: 10px 20px;
+}
+.cat-dot1 .fa-solid {
+  text-decoration: none;
+  color: purple;
+}
+
+.cat-dot2 .fa-solid {
+  text-decoration: none;
+  color: blue;
+}
+
+.cat-dot3 .fa-solid {
+  text-decoration: none;
+  color: #002147;
+}
+
+.cat-dot4 .fa-solid {
+  text-decoration: none;
+  color: orange;
+}
+
+.span-dot {
+  background-color: #e7e7e7;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recent {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+}
+
+.images {
+  margin-left: -80px;
+}
+
+.dot-text {
+  position: relative;
+  top: 20%;
+  left: 20%;
+}
+
+.about-image {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.dot {
+  width: 8%;
+}
+
+.inhype-all {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+}
+
+.inhype {
+  background-color: #f36;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.post-tittle a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.link-author a {
+  text-decoration: none;
+  color: black;
+}
+
+.col-md-5 {
+  max-width: none !important;
+  width: 600px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.inhype-block {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.all-span {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.technology {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.container-tittle .inhype-block h3 {
+  font-size: 50px;
+}
+
+.container-tittle .inhype-block h4 {
+  font-size: 20px;
+}
+
+.span-dot-2 {
+  background-color: #e7e7e7;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.p-technology {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: -200px;
+  margin-right: -347px;
+}
