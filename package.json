@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "sass": "^1.49.9"
+  },
+  "scripts": {
+    "watch": "grunt watch"
+  },
+  "devDependencies": {
+    "and": "^0.0.3",
+    "grunt": "^1.4.1",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "install": "^0.13.0",
+    "npm": "^8.5.3"
+  }
+}
