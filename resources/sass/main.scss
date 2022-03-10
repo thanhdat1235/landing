@@ -1,0 +1,40 @@
+@import "./components/child";
+@import "./components/header";
+@import "./components/aboutsection";
+@import "./components/image-backgrounds.";
+@import "./components/today_highlight";
+@import "./components/art_culture";
+@import "./components/selected";
+@import "./components/tarvel";
+@import "./components/links.scss";
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+@import "../../node_modules//bootstrap/scss/bootstrap";
+// Then add additional custom code here
+
+* {
+  padding: 0px;
+  margin: 0px;
+
+  box-sizing: border-box;
+}
+
+html {
+  font-size: "Lato", sans-serif;
+
+  font-size: 20px;
+  color: #5a5a5a;
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  overflow: hidden auto;
+}
+
+.container {
+  max-width: 1320px !important;
+}
