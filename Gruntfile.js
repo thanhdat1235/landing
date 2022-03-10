@@ -5,13 +5,13 @@ module.exports = function(grunt) {
       sass: {                              // Task
         dist: {                            // Target
           files: {                         // Dictionary of files
-            'public/main.css': 'resources/sass/main.scss',       // 'destination': 'source'
+            'resources/css/style.css': 'resources/sass/main.scss',       // 'destination': 'source'
           }
         }
       },
       watch: {
         scripts: {
-          files: ['**/*.scss'],
+          files: ['**/**/*.scss'],
           tasks: ['sass'],
         },
       },
